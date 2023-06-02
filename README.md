@@ -16,3 +16,12 @@ Na primeira parte dessa seção, é possível digitar o seu token para listar to
 <img src="https://github.com/enriconunes/AplicacaoWeb_criptoanalise_Nodejs/assets/75801762/48a45eeb-d90e-47c2-a27c-495ee27eb96c" width="400px"/> </br>
 Após identificar o ID do arquivo desejado, basta digitá-lo na segunda seção deste collapse e selecionar o arquivo .pem que contém a chave privada válida para fazer o download do arquivo já decifrado (caso ele tenha sido cifrado).
 <img src="https://github.com/enriconunes/AplicacaoWeb_criptoanalise_Nodejs/assets/75801762/e97dab11-f0ed-40a9-9453-e91b772e70e4" />
+
+</br></br>
+<h4>Aprendizado com este projeto:</h4>
+<ul>
+  <li>Utilização de cifras AES</li>
+  <li>Utilização de cifras RSA</li>
+  <li>Utilização de cifras SHA256</li>
+  <li>Prática com Node.js e utilização de módulos para criação de rotas, manipulação de arquivos, cifras e conexão com base de dados</li>
+</ul>
