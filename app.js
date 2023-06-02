@@ -1,14 +1,12 @@
 const express = require('express');
 const path = require('path');
 const forge = require('node-forge');
-const Sequelize = require("sequelize");
 const crypto = require('crypto');
 const multer = require('multer');
 const fs = require('fs');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
 const archiver = require('archiver');
-const { Readable } = require('stream');
 
 // Chamar o express
 const app = express();
@@ -33,7 +31,6 @@ const db = mysql.createConnection({
 // Conectar-se ao banco de dados
 db.connect((err) => {
     if (err) {
-        return res.status(301).redirect('/?msg=Erro ao se conectar à base de dados!');
         throw err;
     }
     console.log('Conectado ao banco de dados MySQL');
