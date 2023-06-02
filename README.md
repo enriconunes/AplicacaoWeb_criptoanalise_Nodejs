@@ -20,8 +20,10 @@ Após identificar o ID do arquivo desejado, basta digitá-lo na segunda seção 
 </br></br>
 <h4>Aprendizado com este projeto:</h4>
 <ul>
-  <li>Utilização de cifras AES</li>
-  <li>Utilização de cifras RSA</li>
-  <li>Utilização de cifras SHA256</li>
-  <li>Prática com Node.js e utilização de módulos para criação de rotas, manipulação de arquivos, cifras e conexão com base de dados</li>
+  <li>Utilização de cifras AES.</li>
+  <li>Utilização de cifras RSA.</li>
+  <li>Utilização de cifras SHA256.</li>
+  <li>Prática com Node.js e utilização de módulos para criação de rotas, manipulação de arquivos, cifras e conexão com base de dados.</li>
 </ul>
+
+Possível melhoria: Implementar métodos para evitar injeções SQL.
